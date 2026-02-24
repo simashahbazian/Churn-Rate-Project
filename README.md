@@ -1,52 +1,38 @@
-# 📊 Churn Rate Analysis Dashboard
+ 📊 Churn Rate Analysis Dashboard
 
-This project presents a data-driven analysis of customer churn using an interactive Power BI dashboard, supported by preprocessing and exploration in Excel.
+This project presents a data-driven analysis of customer churn using an interactive Power BI dashboard, supported by data preprocessing in Excel.
 
-## 🔍 Project Overview
+ 🔍 Project Overview
+The objective is to identify patterns and key drivers of customer churn by analyzing behavioral and contractual features.
 
-The objective of this project is to identify patterns and key drivers of customer churn by analyzing behavioral and contractual features.
+ 🛠 Tools & Technologies
+- Power BI (Dashboard & Visualization)
+- Microsoft Excel (Data preprocessing & cleaning)
+- Data analysis techniques
 
-## 🛠️ Tools & Technologies
+ 📈 Dashboard Structure
 
-* Power BI (Dashboard & Visualization)
-* Microsoft Excel (Data preprocessing & cleaning)
-* Data Analysis techniques
+ Overview Tab
+- KPIs: Total Customers, Churned Customers, Churn Rate  
+- General view of customer base and churn behavior  
 
-## 📈 Dashboard Structure
+ Demographics Analysis
+- Churn rate across age groups and customer segments  
+- Identification of high-risk groups  
 
-### 🧩 Overview Tab
+ Contract & Usage Analysis
+- Impact of contract type on churn  
+- Relationship between data usage and churn  
 
-* Key KPIs: Total Customers, Churned Customers, Churn Rate
-* High-level understanding of customer base and overall churn behavior
+ Service Interaction Analysis
+- Effect of customer service calls on churn  
+- Identification of dissatisfaction patterns  
 
-### 👥 Customer Analysis
+ 📂 Project Content
+- `Churn Project.pbix` → Power BI dashboard  
+- `Churn Project.pdf` → Dashboard preview  
+- Excel file → Data preprocessing  
 
-* Churn distribution across age groups
-* Relationship between demographics and churn patterns
 
-### 📦 Contract & Usage Analysis
-
-* Impact of contract type on churn
-* Comparison between short-term vs long-term customers
-* Usage-based behavior (data consumption, service calls)
-
-### 📞 Service Interaction
-
-* Analysis of customer service calls
-* Identification of dissatisfaction signals linked to churn
-
-## 💡 Key Insights
-
-* Customers with short-term contracts show higher churn rates
-* Frequent customer service interactions indicate higher churn risk
-* Data usage patterns are strongly correlated with churn behavior
-
-## 📁 Project Content
-
-* Power BI dashboard file (.pbix)
-* Supporting dataset and processed data (Excel)
-* Visualization outputs and reports
-
-## 🎯 Conclusion
-
-This analysis provides actionable insights for improving customer retention strategies and supports decision-making through clear data visualization.
+ 💡 Key Insight
+Customers with high service interactions and flexible contracts show higher churn probability.
